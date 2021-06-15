@@ -81,7 +81,7 @@ tinicial.iconphoto(True, PhotoImage(file='./arquivos/trevopico.png'))
 image=PhotoImage(file='./arquivos/trevopico.png')
 
 Lbltela = tk.Label(tinicial,image=image,bg='skyBlue',)
-Lbltela.place(relx=0.0, rely = 0.0)
+Lbltela.place(relx=0.3, rely = 0.5)
 
 Lbltitulo = tk.Label(tinicial,bg='skyBlue',text='Realize seu Sorteio',fg='black',font=('arial',20,'bold'))
 Lbltitulo.place(relx=0.2, rely = 0.01)
